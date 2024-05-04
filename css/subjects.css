@@ -2,6 +2,7 @@
 	display: flex;
 	gap: 1rem;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .mw-subject {
@@ -17,7 +18,8 @@
 }
 
 .mw-subject:hover,
-.mw-subject:active {
+.mw-subject:active,
+.mw-subject:focus-within {
 	scale: 1.1;
 	box-shadow: 2px 5px 12px gray;
 }
@@ -31,6 +33,10 @@
 	height: 100%;
 	width: 100%;
 	padding: 1rem .3rem;
+}
+
+.mw-subject a:focus-visible {
+	outline: none;
 }
 
 .mw-subject___details {
