@@ -47,7 +47,7 @@ function templateCategory(template, category) {
 }
 
 (async function () {
-	const subjects = await request.json("/data/subjects.json");
+	const subjects = await request.json("./data/subjects.json");
 	initListeners(subjects);
 	searchMenus(subjects, url.getQuery("criteria"));
 	inputCriteria.focus();

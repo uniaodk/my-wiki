@@ -2,25 +2,25 @@
 	{
 		"name": "HTML",
 		"categories": ["dev"],
-		"iconPath": "/assets/icons/html.svg",
-		"pagePath": "/pages/hypertext-markup-language.html"
+		"iconPath": "./assets/icons/html.svg",
+		"pagePath": "./pages/hypertext-markup-language.html"
 	},
 	{
 		"name": "Bible",
 		"categories": ["faith"],
-		"iconPath": "/assets/icons/bible.svg",
-		"pagePath": "/pages/bible.html"
+		"iconPath": "./assets/icons/bible.svg",
+		"pagePath": "./pages/bible.html"
 	},
 	{
 		"name": "Smallville",
 		"categories": ["serie"],
-		"iconPath": "/assets/img/smallville.webp",
-		"pagePath": "/pages/smallville.html"
+		"iconPath": "./assets/img/smallville.webp",
+		"pagePath": "./pages/smallville.html"
 	},
 	{
 		"name": "O prazer da vingança",
 		"categories": ["book", "faith"],
-		"iconPath": "/assets/img/o-prazer-da-vinganca.jpg",
-		"pagePath": "/pages/o-prazer-da-vinganca.html"
+		"iconPath": "./assets/img/o-prazer-da-vinganca.jpg",
+		"pagePath": "./pages/o-prazer-da-vinganca.html"
 	}
 ]
