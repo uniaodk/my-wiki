@@ -1,0 +1,118 @@
+.mw-subjects {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.mw-subject {
+	display: flex;
+	width: 120px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1rem;
+	list-style-type: none;
+	scale: 1;
+	box-shadow: 1px 2px 4px gray;
+	transition: .25s ease-in-out;
+}
+
+.mw-subject:hover,
+.mw-subject:active {
+	scale: 1.1;
+	box-shadow: 2px 5px 12px gray;
+}
+
+.mw-subject a {
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+	padding: 1rem .3rem;
+}
+
+.mw-subject___details {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	height: 100%;
+}
+
+.mw-subject___details .subject-img {
+	width: 4rem;
+	height: 4rem;
+	margin: auto;
+	background-color: white;
+	border-radius: 50%;
+	clip-path: padding-box;
+}
+
+.mw-subject___details .subject-img img {
+	height: 100%;
+}
+
+.mw-subject___details .subject-img.padding-box {
+	clip-path: padding-box;
+}
+
+.mw-subject___details .subject-img.padding {
+	padding: .8rem;
+}
+
+.mw-subject___details .subject-title {
+	flex: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mw-subject___categories {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: .3rem;
+	top: .5rem;
+	right: .3rem;
+	list-style-type: none;
+	font-size: xx-small;
+	color: white;
+}
+
+.mw-subject___category {
+	padding: 0.1rem 0.3rem;
+	border-radius: 1rem;
+	width: fit-content;
+	text-transform: uppercase;
+	filter: brightness(1.2)
+}
+
+.mw-subject.faith,
+.mw-subject___category.faith {
+	background-color: cornflowerblue;
+}
+
+.mw-subject.dev,
+.mw-subject___category.dev {
+	background-color: green;
+}
+
+.mw-subject.serie,
+.mw-subject___category.serie {
+	background-color: crimson;
+}
+
+.mw-subject.book,
+.mw-subject___category.book {
+	background-color: goldenrod;
+}
+
+.mw-subject___not-found {
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}

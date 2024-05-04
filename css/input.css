@@ -1,0 +1,21 @@
+input[type="text"] {
+	border-radius: .5rem;
+	padding: .3rem .6rem;
+	border: 1px solid silver;
+}
+
+input::placeholder {
+	color: silver;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active,
+input[type="text"]:hover {
+	border: 1px solid gray;
+}
+
+input:focus-visible {
+	outline: none;
+	outline-style: none;
+	box-shadow: 1px 3px 5px silver;
+}

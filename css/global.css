@@ -1,0 +1,26 @@
+@import url("/css/input.css");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-clip-margin: border-box;
+	font-family: sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	gap: 1rem;
+	width: 100vw;
+	margin: auto;
+}
+
+main>* {
+	flex: auto;
+}
+
+main #criteria {
+	width: 100%;
+}
