@@ -1,0 +1,53 @@
+.mw-acordeon {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 1rem;
+	padding: .5rem 1rem;
+	width: 100%;
+	transition: background-color .25s ease-in-out;
+	pointer-events: none;
+}
+
+.mw-acordeon:hover,
+.mw-acordeon:active {
+	background-color: #eee;
+}
+
+.mw-acordeon___header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.mw-acordeon___header::after {
+	content: "";
+	display: block;
+	background-image: url("/assets/icons/arrow-down.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1rem;
+	height: 1rem;
+	transform: rotate(0deg);
+	transition: transform .25s ease-in-out;
+}
+
+.mw-acordeon___header.open::after {
+	transform: rotate(-180deg);
+}
+
+
+.mw-acordeon___body {
+	display: none;
+	padding-top: 1rem;
+}
+
+.mw-acordeon___body.open {
+	display: block;
+}

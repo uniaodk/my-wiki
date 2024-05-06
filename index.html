@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="./assets/icons/library.svg" type="image/x-icon">
+	<link rel="shortcut icon" href="./assets/icons/wiki.svg" type="image/x-icon">
 	<link rel="stylesheet" href="./css/global.css">
 	<link rel="stylesheet" href="./css/subjects.css">
 	<title>My Wiki</title>
@@ -12,15 +12,16 @@
 
 <body>
 	<main>
+		<h1>My Wiki</h1>
 		<form id="form-search" action="./index.html" method="get" autocomplete="off">
 			<input id="criteria" name="criteria" type="text" placeholder="Search by subject or categories...">
 			<button type="submit" hidden>Search</button>
 		</form>
 		<ul id="subjects" class="mw-subjects"></ul>
 	</main>
-	<script src="./js/utils/url.js"></script>
-	<script src="./js/utils/request.js"></script>
-	<script src="./js/main.js"></script>
+	<script src="./js/util-url.js"></script>
+	<script src="./js/util-request.js"></script>
+	<script src="./main.js"></script>
 </body>
 
 </html>

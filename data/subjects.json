@@ -3,24 +3,24 @@
 		"name": "HTML",
 		"categories": ["dev"],
 		"iconPath": "./assets/icons/html.svg",
-		"pagePath": "./pages/hypertext-markup-language.html"
+		"pagePath": "./pages/html-page-main.html"
 	},
 	{
 		"name": "Bible",
 		"categories": ["faith"],
 		"iconPath": "./assets/icons/bible.svg",
-		"pagePath": "./pages/bible.html"
+		"pagePath": "./pages/bible-main.html"
 	},
 	{
 		"name": "Smallville",
 		"categories": ["serie"],
-		"iconPath": "./assets/img/smallville.webp",
-		"pagePath": "./pages/smallville.html"
+		"iconPath": "./assets/imgs/series-smallville-cover-1-season.webp",
+		"pagePath": "./pages/series-smallville-main.html"
 	},
 	{
 		"name": "O prazer da vingança",
 		"categories": ["book", "faith"],
-		"iconPath": "./assets/img/o-prazer-da-vinganca.jpg",
-		"pagePath": "./pages/o-prazer-da-vinganca.html"
+		"iconPath": "./assets/imgs/books-o-prazer-da-vinganca-cover.jpg",
+		"pagePath": "./pages/books-o-prazer-da-vinganca-main.html"
 	}
 ]
