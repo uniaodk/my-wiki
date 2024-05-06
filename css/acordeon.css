@@ -29,7 +29,7 @@
 .mw-acordeon___header::after {
 	content: "";
 	display: block;
-	background-image: url("/assets/icons/arrow-down.svg");
+	background-image: url("../assets/icons/arrow-down.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 1rem;
