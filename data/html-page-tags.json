@@ -2,6 +2,6 @@
 	{
 		"name": "&lt;input&gt;",
 		"description": "Defines an input control",
-		"pagePath": "/pages/html-page-tags-input.html"
+		"pagePath": "../pages/html-page-tags-input.html"
 	}
 ]
