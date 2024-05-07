@@ -27,17 +27,21 @@ function templateNotFoundSubject() {
 }
 
 function templateMenu(template, subject, index) {
-	return template + `<li class= "mw-subject ${subject.categories[0]}">
-		<a href="${subject.pagePath}">
+	const isSvgFile = subject.iconPath.match(/\.svg|\.ico/);
+	const mainCategory = subject.categories[0];
+	const isGithubCategory = mainCategory === 'github';
+	return template + `<li class= "mw-subject ${mainCategory}">
+		<a href="${subject.pagePath}" ${isGithubCategory ? 'target="_blank"': ''}>
 			<div class="mw-subject___details">
-				<div class="subject-img ${subject.iconPath.includes('.svg') ? 'padding"' : 'fit-image"'}>
+				<div class="subject-img ${isSvgFile ? 'padding"' : 'fit-image"'}>
 					<img src="${subject.iconPath}"/>
 				</div>
-				<h3 class="subject-title">${subject.name}</h3>
+				<h4 class="subject-title">${subject.name}</h4>
 			</div>
 			<ul class="mw-subject___categories">
 				${subject.categories.reduce(templateCategory, "")}
 			</ul>
+			${isGithubCategory ? `<div class="mw-subject___link-external ${mainCategory}"></div>` : ""}
 		</a>
 	</li>`
 }

@@ -96,23 +96,54 @@
 }
 
 .mw-subject.faith,
-.mw-subject___category.faith {
+.mw-subject .faith {
 	background-color: cornflowerblue;
 }
 
 .mw-subject.dev,
-.mw-subject___category.dev {
+.mw-subject .dev {
 	background-color: green;
 }
 
 .mw-subject.serie,
-.mw-subject___category.serie {
+.mw-subject .serie {
 	background-color: crimson;
 }
 
 .mw-subject.book,
-.mw-subject___category.book {
+.mw-subject .book {
 	background-color: goldenrod;
+}
+
+.mw-subject.github,
+.mw-subject .github {
+	background-color: gray;
+}
+
+.mw-subject.dio,
+.mw-subject .dio {
+	background-color: darkblue;
+}
+
+.mw-subject___link-external {
+	position: absolute;
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	filter: brightness(1.2);
+	padding: .3rem;
+	top: .2rem;
+}
+
+.mw-subject___link-external::after {
+	content: "";
+	display: block;
+	background-image: url("../assets/icons/external-link.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(109%) contrast(102%);
 }
 
 .mw-subject___not-found {

@@ -22,5 +22,35 @@
 		"categories": ["book", "faith"],
 		"iconPath": "./assets/imgs/books-o-prazer-da-vinganca-cover.jpg",
 		"pagePath": "./pages/books-o-prazer-da-vinganca-main.html"
+	},
+	{
+		"name": "Pokedex",
+		"categories": ["github", "dev", "dio"],
+		"iconPath": "https://github.com/uniaodk/pokedex-dio-challenge/blob/main/assets/images/pokebola.png?raw=true",
+		"pagePath": "https://uniaodk.github.io/pokedex-dio-challenge/"
+	},
+	{
+		"name": "Calculator",
+		"categories": ["github", "dev", "dio"],
+		"iconPath": "https://www.svgrepo.com/show/499849/calculator.svg",
+		"pagePath": "https://uniaodk.github.io/calculator-js-dio-mentoring/"
+	},
+	{
+		"name": "Portifolio",
+		"categories": ["github", "dev", "dio"],
+		"iconPath": "https://raw.githubusercontent.com/uniaodk/curriculum-dio-challenge/main/favicon.ico",
+		"pagePath": "https://uniaodk.github.io/portifolio-dio-challenge/"
+	},
+	{
+		"name": "Spiderman Page",
+		"categories": ["github", "dev", "dio"],
+		"iconPath": "https://www.svgrepo.com/show/303599/spider-man-4-logo.svg",
+		"pagePath": "https://uniaodk.github.io/spiderman-page-dio-challenge/"
+	},
+	{
+		"name": "Speech Recognition",
+		"categories": ["github", "dev", "dio"],
+		"iconPath": "https://www.svgrepo.com/show/442063/audio-input-microphone-symbolic.svg",
+		"pagePath": "https://uniaodk.github.io/speech-recognition-dio-challenge/"
 	}
 ]
