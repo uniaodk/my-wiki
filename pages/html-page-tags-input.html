@@ -6,13 +6,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../assets/icons/html.svg" type="image/x-icon">
 	<link rel="stylesheet" href="../css/global.css">
-	<title>HTML - Tag - &lt;input&gt;</title>
+	<link rel="stylesheet" href="../css/breadcrumb.css">
+	<link rel="stylesheet" href="../css/scroll-to-top.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+	<title>HTML - &lt;input&gt;</title>
 </head>
 
 <body>
+	<div id="breadcrumb"></div>
 	<main>
 		<h1>&lt;input&gt;</h1>
+		<pre>
+			<code class="snippet-code">
+			// JavaScript example
+			function greet(name) {
+			  return 'Hello, ' + name + '!';
+			}
+			
+			console.log(greet('World'));
+			</code>
+		</pre>
+
+		<pre>
+			<code class="snippet-code html">
+				<h1>HTML</h1>
+				<div class="acordeon">
+					<button class="acordeon___header" type="button">
+						<h3>Tags</h3>
+					</button>
+					<div class="acordeon___body">
+						<table>
+							<tbody id="mw-html-tags" class="mw-html-tags">
+								<!-- Append <tr> with tags -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</code>
+		</pre>
 	</main>
+	<div id="scroll-to-top"></div>
+	<script src="../js/breadcrumb.js"></script>
+	<script src="../js/scroll-to-top.js"></script>
+	<script src="../js/snippet-code.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
 </body>
 
 </html>

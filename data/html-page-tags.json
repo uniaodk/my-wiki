@@ -1,7 +1,7 @@
 [
 	{
 		"name": "&lt;input&gt;",
-		"description": "Defines an input control",
+		"description": "Define a entrada de dados",
 		"pagePath": "../pages/html-page-tags-input.html"
 	}
 ]

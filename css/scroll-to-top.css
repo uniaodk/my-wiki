@@ -1,0 +1,28 @@
+#scroll-to-top {
+	position: fixed;
+	display: none;
+	bottom: 1rem;
+	right: 1rem;
+	justify-content: flex-end;
+	user-select: none;
+}
+
+#scroll-to-top button {
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: white;
+	border: none;
+	border-radius: 50%;
+	box-shadow: 2px 5px 10px gray;
+	cursor: pointer;
+	transition: background-color .25s ease-in-out;
+}
+
+#scroll-to-top button:hover {
+	background-color: #eee;
+}
+
+#scroll-to-top button img {
+	width: 60%;
+	opacity: .6;
+}

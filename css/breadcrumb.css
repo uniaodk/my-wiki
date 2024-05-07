@@ -1,0 +1,43 @@
+#breadcrumb {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+#breadcrumb > img {
+	height: .7rem;
+	width: .7rem;
+	transform: rotate(-90deg);
+	opacity: .5;
+}
+
+#breadcrumb .breadcrumb___home {
+	opacity: .5;
+	gap: .5rem;
+}
+
+#breadcrumb a {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+	transition: color .25s ease-in-out;
+}
+
+#breadcrumb a:hover,
+#breadcrumb a:active {
+	filter: contrast(0);
+}
+
+#breadcrumb a:visited {
+	color: black;
+}
+
+#breadcrumb a img {
+	height: 1.5rem;
+	width: 1.5rem;
+	filter: brightness(1);
+}

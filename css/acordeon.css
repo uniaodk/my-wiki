@@ -1,4 +1,4 @@
-.mw-acordeon {
+.acordeon {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -10,12 +10,12 @@
 	pointer-events: none;
 }
 
-.mw-acordeon:hover,
-.mw-acordeon:active {
+.acordeon:hover,
+.acordeon:active {
 	background-color: #eee;
 }
 
-.mw-acordeon___header {
+.acordeon___header {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
@@ -26,7 +26,7 @@
 	pointer-events: auto;
 }
 
-.mw-acordeon___header::after {
+.acordeon___header::after {
 	content: "";
 	display: block;
 	background-image: url("../assets/icons/arrow-down.svg");
@@ -38,16 +38,16 @@
 	transition: transform .25s ease-in-out;
 }
 
-.mw-acordeon___header.open::after {
+.acordeon___header.open::after {
 	transform: rotate(-180deg);
 }
 
 
-.mw-acordeon___body {
+.acordeon___body {
 	display: none;
 	padding-top: 1rem;
 }
 
-.mw-acordeon___body.open {
+.acordeon___body.open {
 	display: block;
 }
