@@ -20,7 +20,7 @@ function templateBookAcordeon(template, book) {
 function templateChapterTr(template, chapter, book) {
 	return template + `
 		<tr>
-			<td><a href="../pages/bible-detail.html?book=${book.id}&chapter=${chapter.id}">Capítulo ${chapter.id}</a></td>
+			<td><a href="../pages/bible-detail.html?book=${book.id}&chapter=${chapter.id}">Cap. ${chapter.id}</a></td>
 			<td>${chapter.title}</td>
 		</tr>
 	`;
