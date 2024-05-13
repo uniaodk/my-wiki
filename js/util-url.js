@@ -1,6 +1,6 @@
-const url = {}
+const utilUrl = {}
 
-url.getQuery = (queryName, queryString = window.location.search) => {
+utilUrl.getQuery = (queryName, queryString = window.location.search) => {
 	const param = new URLSearchParams(queryString);
 	return param.get(queryName);
 }

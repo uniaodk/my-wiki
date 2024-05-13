@@ -4,5 +4,11 @@
 			"name": "HTML",
 			"pathPage": "../pages/html-page-main.html"
 		}
+	],
+	"bible-detail": [
+		{
+			"name": "Bible",
+			"pathPage": "../pages/bible-main.html"
+		}
 	]
 }

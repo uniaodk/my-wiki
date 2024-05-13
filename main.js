@@ -5,7 +5,7 @@ const inputCriteria = document.getElementById("criteria");
 function initListeners(subjects) {
 	formSearch.addEventListener("submit", function (event) {
 		event.preventDefault();
-		const criteria = url.getQuery("criteria", new FormData(event.target));
+		const criteria = utilUrl.getQuery("criteria", new FormData(event.target));
 		searchMenus(subjects, criteria);
 	});
 }
@@ -51,8 +51,8 @@ function templateCategory(template, category) {
 }
 
 (async function () {
-	const subjects = await request.json("./data/subjects.json");
+	const subjects = await utilRequest.json("./data/subjects.json");
 	initListeners(subjects);
-	searchMenus(subjects, url.getQuery("criteria"));
+	searchMenus(subjects, utilUrl.getQuery("criteria"));
 	inputCriteria.focus();
 })();

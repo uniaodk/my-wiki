@@ -1,0 +1,11 @@
+#bible-books-acordeon .acordeon___body p {
+	margin-bottom: 1rem;
+}
+
+#bible-books-acordeon table {
+	border-spacing: 1rem .5rem;
+}
+
+#bible-books-acordeon table tr td:last-child {
+	font-style: italic;
+}

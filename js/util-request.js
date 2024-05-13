@@ -1,6 +1,6 @@
-const request = {};
+const utilRequest = {};
 
-request.json = async (pathResource) => {
+utilRequest.json = async (pathResource) => {
 	const response = await fetch(pathResource);
 	return await response.json();
 }

@@ -9,7 +9,7 @@ function templateHtmlTag(template, tag) {
 }
 
 (async function () {
-	const tags = await request.json("../data/html-page-tags.json");
+	const tags = await utilRequest.json("../data/html-page-tags.json");
 	tagsTable.innerHTML = tags.reduce(templateHtmlTag, "");
 })();
 
