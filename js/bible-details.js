@@ -21,7 +21,7 @@ bibleDetails.init = async function () {
 
 	const myUndestanding = document.getElementById("my-understanding");
 	myUndestanding.innerHTML += chatpterData.myUndestanding;
-	configNextPreviouseChapter(bookData);
+	configNextPreviouseChapter(Object.keys(bookData).length);
 }
 
 function linkNavigatePage(bookId, chapterId, isNext) {
@@ -31,11 +31,11 @@ function linkNavigatePage(bookId, chapterId, isNext) {
 	return elements.join("");
 }
 
-function configNextPreviouseChapter(bookData) {
+function configNextPreviouseChapter(chapterAmount) {
 	const previousChapter = document.getElementById("previous");
 	previousChapter.innerHTML = bibleDetails.chapterId === 1 ? "" : linkNavigatePage(bibleDetails.bookId, bibleDetails.chapterId - 1, false); 
 	const nextChapter = document.getElementById("next");
-	nextChapter.innerHTML = bibleDetails.chapterId === bookData.length ? "" : linkNavigatePage(bibleDetails.bookId, bibleDetails.chapterId + 1, true);
+	nextChapter.innerHTML = bibleDetails.chapterId === chapterAmount ? "" : linkNavigatePage(bibleDetails.bookId, bibleDetails.chapterId + 1, true);
 }
 
 bibleDetails.init();
